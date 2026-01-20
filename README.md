@@ -29,7 +29,7 @@ This implementation delivers a real-time Proof of Concept with the following cap
 * Notification delivery via Twilio integration
 * End-to-end streaming observability
 
-Cold-path analytics components are included in the architecture design for future extension but are not implemented in this phase.
+> Cold-path analytics components are included in the architecture design for future extension but are not implemented in this phase.
 
 ---
 
@@ -47,7 +47,7 @@ Key Characteristics:
 * Stateless and stateful stream operators
 * Serverless notification triggering
 
-> ![hot path](hot_path.png)
+![hot path](hot_path.png)
 
 ---
 
@@ -58,7 +58,7 @@ Kafka → Flink → Azure Blob Storage → ADLS Gen2 → ADF → Synapse Analyti
 
 Cold path is designed for historical analytics, reporting, and BI workloads.
 
-> ![cold path](cold_path.png)
+![cold path](cold_path.png)
 
 ---
 
@@ -136,7 +136,7 @@ For production architecture:
 
 Live Kafka telemetry feed:
 
-> ![vehicle_telemetry_gif](vehicle_telemetry_gif.gif)
+![vehicle_telemetry_gif](vehicle_telemetry_gif.gif)
 
 ---
 
@@ -144,7 +144,7 @@ Live Kafka telemetry feed:
 
 Unified anomaly alert stream:
 
-> ![vehicle_alerts_notifications_gif](vehicle_alerts_notifications_gif.gif)
+![vehicle_alerts_notifications_gif](vehicle_alerts_notifications_gif.gif)
 
 ---
 
@@ -152,7 +152,7 @@ Unified anomaly alert stream:
 
 WhatsApp alert delivered using Twilio:
 
-> ![Twilio_msg_screenshot](Twilio_msg_screenshot.png)
+![Twilio_msg_screenshot](Twilio_msg_screenshot.png)
 
 ---
 
