@@ -1,4 +1,4 @@
-# 🚗 Vehicle IoT Telemetry Pipeline
+# 🚗 Vehicle IoT Telemetry Data Pipeline
 
 **End-to-End Real-Time Analytics Architecture using Apache Kafka, Apache Flink, and Azure**
 
