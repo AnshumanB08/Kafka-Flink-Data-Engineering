@@ -12,7 +12,7 @@ The solution is designed around a modern event-driven architecture using Apache 
 
 ## Business Context
 
-Fleetage Mobility operates commercial vehicles equipped with telemetry sensors capturing speed, fuel level, engine temperature, and GPS coordinates. The organization required a low-latency pipeline capable of detecting critical driving conditions such as overspeeding, fuel depletion, and overheating, and notifying drivers within seconds to reduce operational risk and vehicle downtime.
+Fleetage Mobility (imaginary company) operates commercial vehicles equipped with telemetry sensors capturing speed, fuel level, engine temperature, and GPS coordinates. The organization required a low-latency pipeline capable of detecting critical driving conditions such as overspeeding, fuel depletion, and overheating, and notifying drivers within seconds to reduce operational risk and vehicle downtime.
 
 Due to the learning and prototyping nature of this project, physical IoT devices were simulated using a custom telemetry data generator.
 
