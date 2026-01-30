@@ -154,7 +154,7 @@ WhatsApp alert delivered using Twilio:
 
 ![Twilio_msg_screenshot](Twilio_msg_screenshot.png)
 
-> Here WhatApp notification is used due to the learning and prototyping nature of this project. But in real life situation Call notification would be used for alerting the driver.
+> Here WhatApp notification is used due to the learning and prototyping nature of this project. But in real life situation Call notification would be implemented for alerting the driver.
 
 ---
 
