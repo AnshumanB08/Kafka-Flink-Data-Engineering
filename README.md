@@ -14,7 +14,7 @@ The solution is designed around a modern event-driven architecture using Apache 
 
 Fleetage Mobility (imaginary company) operates commercial vehicles equipped with telemetry sensors capturing speed, fuel level, engine temperature, and GPS coordinates. The organization required a low-latency pipeline capable of detecting critical driving conditions such as overspeeding, fuel depletion, and overheating, and notifying drivers within seconds to reduce operational risk and vehicle downtime.
 
-Due to the learning and prototyping nature of this project, physical IoT devices were simulated using a custom telemetry data generator.
+> Due to the learning and prototyping nature of this project, physical IoT devices were simulated using a custom telemetry data generator.
 
 ---
 
@@ -153,6 +153,8 @@ Unified anomaly alert stream:
 WhatsApp alert delivered using Twilio:
 
 ![Twilio_msg_screenshot](Twilio_msg_screenshot.png)
+
+> Here WhatApp notification is used due to the learning and prototyping nature of this project. But in real life situation Call notification would be used for alerting the driver.
 
 ---
 
