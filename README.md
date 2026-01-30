@@ -4,7 +4,7 @@
 
 ## Overview
 
-Fleet operators require real-time visibility into vehicle behavior to proactively detect safety and operational anomalies. This project implements a scalable streaming data platform that ingests vehicle telemetry, performs real-time anomaly detection, and triggers automated driver notifications.
+Fleetage Mobility require real-time visibility into vehicle behavior to proactively detect safety and operational anomalies. This project implements a scalable streaming data platform that ingests vehicle telemetry, performs real-time anomaly detection, and triggers automated driver notifications.
 
 The solution is designed around a modern event-driven architecture using Apache Kafka and Apache Flink, integrated with Azure serverless services for real-time alert delivery. While the overall platform design supports both hot-path and cold-path analytics, this implementation focuses on **Phase 1 (Hot Path)** based on stakeholder priority for urgent real-time alerting requirements.
 
